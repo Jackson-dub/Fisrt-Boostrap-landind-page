@@ -26,7 +26,7 @@ html, body {
 
 .feature ul li {
   padding-left: 2rem;
-  background-image: url(./img/check.svg);
+  background-image: url(../img/check.svg);
   background-repeat: no-repeat;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
