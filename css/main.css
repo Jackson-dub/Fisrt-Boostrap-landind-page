@@ -1,3 +1,77 @@
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.gradient {
+  background: #6900c7;
+  background: -webkit-gradient(linear, right top, left top, from(#6900c7), to(#0061f2));
+  background: linear-gradient(270deg, #6900c7 0%, #0061f2 100%);
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.feature {
+  color: #000;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../node_modules/bootstrap-icons/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.icons {
+  color: #fff;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.gallery {
+  background-color: #f8f9fa;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+.contact {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
+
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
