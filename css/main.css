@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .gradient {
@@ -15,16 +16,16 @@ html, body {
   color: #fff;
 }
 
-.feature {
+.services {
   color: #000;
 }
 
-.feature ul {
+.services ul {
   padding-left: 2rem;
   list-style-type: none;
 }
 
-.feature ul li {
+.services ul li {
   padding-left: 2rem;
   background-image: url(../img/check.svg);
   background-repeat: no-repeat;
