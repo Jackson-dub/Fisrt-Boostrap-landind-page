@@ -1,0 +1,67 @@
+
+html,body{
+  height:100%;
+  font-family: 'Raleway', sans-serif;
+}
+.gradient{
+  background: rgb(105,0,199);
+background: linear-gradient(270deg, rgba(105,0,199,1) 0%, rgba(0,97,242,1) 100%);
+}
+
+.page-header{
+  margin-top:4rem;
+  font-size:1.25rem;
+  color: #fff;
+}
+
+.feature{
+  color:#000;
+}
+
+.feature ul{
+  padding-left: 2rem;
+  list-style-type:none;
+}
+
+.feature ul li{
+  padding-left: 2rem;
+  background-image: url(../node_modules/bootstrap-icons/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  line-height:1.5rem;
+  margin-bottom:1.5rem;
+}
+
+.icons{
+  color:#fff;
+}
+
+.icon{
+  height:5rem;
+  width:5rem;
+  font-size:1.75rem;
+  border-radius:100%;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#fff;
+}
+
+.gallery{
+  background-color: #f8f9fa;
+}
+
+.gallery img{
+  border-radius:5%;
+}
+
+.contact{
+  color:#fff;
+
+}
+
+footer{
+  color:#fff;
+  font-size:1rem;
+  padding:1rem;
+  margin:0;
+}
